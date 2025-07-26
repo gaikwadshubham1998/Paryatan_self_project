@@ -1,0 +1,47 @@
+.pagination .page-link {
+  color: #0a0501; /* Orange text */
+  border-color: #171514;
+  background-color: transparent;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #f36a08; /* Orange background */
+  border-color: #0d0c0b;
+  color: #fff;
+}
+
+.pagination .page-link:hover {
+  background-color: #ff8533; /* Lighter orange on hover */
+  color: #fff;
+}
+/* WhatsApp Button Styles */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  animation: bounce 2s infinite;
+  transition: transform 0.3s;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}

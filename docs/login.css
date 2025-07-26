@@ -1,0 +1,77 @@
+body {
+  background-image: url(/images/lonaval-khandala.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Ensures it fills the screen */
+  background-position: center;
+  /* Centers the image */
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.login-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  /* light transparent white */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  padding: 40px 30px;
+  max-width: 400px;
+  margin: auto;
+  color: #0b0b0c;
+}
+
+.login-card h3 {
+  color: #343a40;
+  font-weight: 600;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.btn-login {
+  background-color: #f96019;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 10px;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #d94d0d;
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  border-radius: 10px;
+}
+
+.form-text a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.form-text a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Media Query for smaller devices */
+@media (max-width: 576px) {
+  .login-card {
+    padding: 25px 20px;
+  }
+}

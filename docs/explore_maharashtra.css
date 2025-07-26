@@ -1,0 +1,203 @@
+/* Loader Wrapper */
+.loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+}
+
+/* Loader Content  */
+.loader-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Spinner Style */
+.spinner {
+  width: 90px;
+  height: 90px;
+  border: 6px solid #d45a00;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Spinner Animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar-nav .vr {
+  border-left: 1px solid #8c8888;
+  height: 20px;
+  margin: auto 0;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d45a00;
+
+}
+
+.navbar {
+  padding: 0.75rem 1rem;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d45a00;
+}
+
+.navbar {
+  padding: 0.75rem 1rem;
+}
+
+
+/* active class  */
+.nav-link.active {
+  color: #e24c00 !important;
+}
+
+/* WhatsApp Button Styles */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  animation: bounce 2s infinite;
+  transition: transform 0.3s;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+
+
+/* Founder Section */
+.founder-section {
+  background-color: #fff;
+}
+.founder-section img {
+  border-radius: 20px;
+  max-height: 450px;
+  object-fit: cover;
+}
+blockquote {
+  border-left: 5px solid #e24c00;
+  padding-left: 1rem;
+  color: #444;
+}
+.Sg{
+    color: #e24c00;
+}
+
+        .explore-header {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+                url('/images/maharashtra-banner.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .explore-section {
+            padding: 60px 0;
+        }
+
+        .explore-section h2 {
+            font-weight: 700;
+            color:#e24c00;
+        }
+
+        .section-bg {
+            background-color: #f7f7f7;
+        }
+
+        .shivaji-img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+
+
+/* FOOTER STYLING */
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footer-link:hover {
+  color: #d45a00;
+  text-decoration: underline;
+  transform: translateX(2px);
+}
+
+.newsletter-input {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+}
+
+.newsletter-input::placeholder {
+  color: #ccc;
+}
+
+.newsletter-btn {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  border-radius: 0 8px 8px 0;
+  font-size: 1.2rem;
+}
+
+.btm_br {
+  background-color: #d45a00;
+}
+
+.footer-bottom a:hover i {
+  color: #ffffff;
+  transform: scale(1.2);
+}
